@@ -1,23 +1,23 @@
 //
-//  SecondViewController.m
+//  ThirdViewController.m
 //  TabbedApplicationWithSwipe
 //
 //  Created by 管恺森 on 16/3/29.
 //  Copyright © 2016年 管恺森. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "ThirdViewController.h"
 
 #define time 0.3f
 
-@interface SecondViewController (){
+@interface ThirdViewController (){
     UIImageView *_imageviewLeft;
     UIImageView *_imageviewRight;
 }
 
 @end
 
-@implementation SecondViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  FourthViewController.h
 //  TabbedApplicationWithSwipe
 //
 //  Created by 管恺森 on 16/3/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
-
+@interface FourthViewController : UIViewController
 
 @end
-
