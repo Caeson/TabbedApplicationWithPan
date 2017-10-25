@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BasicPanViewController.h"
 
-@interface ThirdViewController : UIViewController
+@interface ThirdViewController : BasicPanViewController
 
 @end

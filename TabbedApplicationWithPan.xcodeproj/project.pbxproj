@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C20A461FA0977200294327 /* BasicPanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C20A451FA0977200294327 /* BasicPanViewController.m */; };
 		E184CEEA1CAAB0890061A4FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CEE91CAAB0890061A4FF /* main.m */; };
 		E184CEED1CAAB0890061A4FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CEEC1CAAB0890061A4FF /* AppDelegate.m */; };
 		E184CEF81CAAB0890061A4FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E184CEF71CAAB0890061A4FF /* Assets.xcassets */; };
 		E184CEFB1CAAB0890061A4FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E184CEF91CAAB0890061A4FF /* LaunchScreen.storyboard */; };
 		E184CF041CAAB0A10061A4FF /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CF031CAAB0A10061A4FF /* FourthViewController.m */; };
 		E184CF071CAAB0A80061A4FF /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CF061CAAB0A80061A4FF /* ThirdViewController.m */; };
-		E184CF0A1CAAB0D30061A4FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E184CF091CAAB0D20061A4FF /* Main.storyboard */; };
 		E184CF0F1CAAB1230061A4FF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CF0C1CAAB1230061A4FF /* FirstViewController.m */; };
 		E184CF101CAAB1230061A4FF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E184CF0E1CAAB1230061A4FF /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63C20A441FA0977200294327 /* BasicPanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicPanViewController.h; sourceTree = "<group>"; };
+		63C20A451FA0977200294327 /* BasicPanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicPanViewController.m; sourceTree = "<group>"; };
 		E184CEE51CAAB0890061A4FF /* TabbedApplicationWithPan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabbedApplicationWithPan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E184CEE91CAAB0890061A4FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E184CEEB1CAAB0890061A4FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,7 +32,6 @@
 		E184CF031CAAB0A10061A4FF /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		E184CF051CAAB0A80061A4FF /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		E184CF061CAAB0A80061A4FF /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		E184CF081CAAB0D20061A4FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		E184CF0B1CAAB1230061A4FF /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		E184CF0C1CAAB1230061A4FF /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		E184CF0D1CAAB1230061A4FF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
@@ -69,6 +70,8 @@
 			children = (
 				E184CEEB1CAAB0890061A4FF /* AppDelegate.h */,
 				E184CEEC1CAAB0890061A4FF /* AppDelegate.m */,
+				63C20A441FA0977200294327 /* BasicPanViewController.h */,
+				63C20A451FA0977200294327 /* BasicPanViewController.m */,
 				E184CF0B1CAAB1230061A4FF /* FirstViewController.h */,
 				E184CF0C1CAAB1230061A4FF /* FirstViewController.m */,
 				E184CF0D1CAAB1230061A4FF /* SecondViewController.h */,
@@ -77,7 +80,6 @@
 				E184CF061CAAB0A80061A4FF /* ThirdViewController.m */,
 				E184CF021CAAB0A10061A4FF /* FourthViewController.h */,
 				E184CF031CAAB0A10061A4FF /* FourthViewController.m */,
-				E184CF091CAAB0D20061A4FF /* Main.storyboard */,
 				E184CEF71CAAB0890061A4FF /* Assets.xcassets */,
 				E184CEF91CAAB0890061A4FF /* LaunchScreen.storyboard */,
 				E184CEFC1CAAB0890061A4FF /* Info.plist */,
@@ -120,12 +122,12 @@
 		E184CEDD1CAAB0890061A4FF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "管恺森";
 				TargetAttributes = {
 					E184CEE41CAAB0890061A4FF = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 59G8HL682C;
+						DevelopmentTeam = 6URA9L9CB5;
 					};
 				};
 			};
@@ -154,7 +156,6 @@
 			files = (
 				E184CEFB1CAAB0890061A4FF /* LaunchScreen.storyboard in Resources */,
 				E184CEF81CAAB0890061A4FF /* Assets.xcassets in Resources */,
-				E184CF0A1CAAB0D30061A4FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -170,6 +171,7 @@
 				E184CF071CAAB0A80061A4FF /* ThirdViewController.m in Sources */,
 				E184CF0F1CAAB1230061A4FF /* FirstViewController.m in Sources */,
 				E184CEED1CAAB0890061A4FF /* AppDelegate.m in Sources */,
+				63C20A461FA0977200294327 /* BasicPanViewController.m in Sources */,
 				E184CEEA1CAAB0890061A4FF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,15 +185,6 @@
 				E184CEFA1CAAB0890061A4FF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		E184CF091CAAB0D20061A4FF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E184CF081CAAB0D20061A4FF /* Base */,
-			);
-			name = Main.storyboard;
-			path = ../../../TabbedApplicationWithSwipe/TabbedApplicationWithPan/Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -210,8 +203,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -253,8 +248,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -282,6 +279,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6URA9L9CB5;
 				INFOPLIST_FILE = TabbedApplicationWithPan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gks.TabbedApplicationWithPan;
@@ -294,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6URA9L9CB5;
 				INFOPLIST_FILE = TabbedApplicationWithPan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gks.TabbedApplicationWithPan;
@@ -320,6 +319,7 @@
 				E184CF011CAAB0890061A4FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
