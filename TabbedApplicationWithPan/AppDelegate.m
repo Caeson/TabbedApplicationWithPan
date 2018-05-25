@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
+
+
 
 @interface AppDelegate ()
 
@@ -17,6 +23,25 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+  
+  self.window = [[UIWindow alloc] init];
+  
+  self.window.backgroundColor = [UIColor whiteColor];
+  
+  [self.window makeKeyAndVisible];
+  
+  UITabBarController *tabbar = [[UITabBarController alloc] init];
+  
+  FirstViewController *vc1 = [[FirstViewController alloc] init];
+  SecondViewController *vc2 = [[SecondViewController alloc] init];
+  ThirdViewController *vc3 = [[ThirdViewController alloc] init];
+  FourthViewController *vc4 = [[FourthViewController alloc] init];
+
+  
+  tabbar.viewControllers = @[vc1, vc2, vc3,vc4];
+
+  self.window.rootViewController = tabbar;
+  
     return YES;
 }
 
