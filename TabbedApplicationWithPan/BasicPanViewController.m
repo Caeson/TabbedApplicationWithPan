@@ -28,7 +28,7 @@
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handlePan:)];
     [self.view addGestureRecognizer:pan];
         
-    self.title = [NSString stringWithFormat:@"%d",(arc4random()%10)];
+//    self.title = [NSString stringWithFormat:@"%d",(arc4random()%10)];
 }
 
 - (void)didReceiveMemoryWarning {

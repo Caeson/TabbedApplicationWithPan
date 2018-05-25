@@ -82,10 +82,7 @@
 				E184CF061CAAB0A80061A4FF /* ThirdViewController.m */,
 				E184CF021CAAB0A10061A4FF /* FourthViewController.h */,
 				E184CF031CAAB0A10061A4FF /* FourthViewController.m */,
-<<<<<<< HEAD
 				E1953AFD20B72BC1001C3682 /* Main.storyboard */,
-=======
->>>>>>> 249f88d99f035725b86aec68b7e3b27d5638669f
 				E184CEF71CAAB0890061A4FF /* Assets.xcassets */,
 				E184CEF91CAAB0890061A4FF /* LaunchScreen.storyboard */,
 				E184CEFC1CAAB0890061A4FF /* Info.plist */,
@@ -133,7 +130,7 @@
 				TargetAttributes = {
 					E184CEE41CAAB0890061A4FF = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 6URA9L9CB5;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -162,10 +159,7 @@
 			files = (
 				E184CEFB1CAAB0890061A4FF /* LaunchScreen.storyboard in Resources */,
 				E184CEF81CAAB0890061A4FF /* Assets.xcassets in Resources */,
-<<<<<<< HEAD
 				E1953AFE20B72BC1001C3682 /* Main.storyboard in Resources */,
-=======
->>>>>>> 249f88d99f035725b86aec68b7e3b27d5638669f
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,11 +283,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6URA9L9CB5;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabbedApplicationWithPan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gks.TabbedApplicationWithPan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -302,11 +298,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6URA9L9CB5;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TabbedApplicationWithPan/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gks.TabbedApplicationWithPan;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

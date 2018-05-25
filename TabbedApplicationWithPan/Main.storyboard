@@ -170,6 +170,7 @@
         <!--Fourth-->
         <scene sceneID="psR-Rq-N6P">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mk7-az-pmS" sceneMemberID="firstResponder"/>
                 <viewController id="MSF-sL-jaW" userLabel="Fourth" customClass="FourthViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1dU-xe-bVE"/>
@@ -207,7 +208,6 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Fourth" image="second" id="gKa-KT-8Q5"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mk7-az-pmS" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="750" y="1877"/>
         </scene>
